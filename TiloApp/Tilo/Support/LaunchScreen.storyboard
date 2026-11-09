@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23000" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="launch">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies><plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23000"/><capability name="Safe area layout guides" minToolsVersion="9.0"/></dependencies>
+    <scenes>
+        <scene sceneID="scene">
+            <objects>
+                <viewController id="launch" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="root">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="TiloBrandLogo" translatesAutoresizingMaskIntoConstraints="NO" id="mark"/>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="safe"/>
+                        <color key="backgroundColor" name="TiloEntryBackground"/>
+                        <constraints>
+                            <constraint firstItem="mark" firstAttribute="centerX" secondItem="root" secondAttribute="centerX" id="m-x"/>
+                            <constraint firstItem="mark" firstAttribute="centerY" secondItem="root" secondAttribute="centerY" id="m-y"/>
+                            <constraint firstItem="mark" firstAttribute="width" constant="168" id="m-w"/>
+                            <constraint firstItem="mark" firstAttribute="height" constant="168" id="m-h"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="responder" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="TiloBrandLogo" width="1024" height="1024"/>
+        <namedColor name="TiloEntryBackground">
+            <color red="1" green="0.957" blue="0.894" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

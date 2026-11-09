@@ -1,0 +1,24 @@
+{
+  "projectRef": "hdapofqufmxlghmcrftg",
+  "legalVersion": "2026-11-06-99d6afcc3037",
+  "objects": [
+    {
+      "file": "terms.pdf",
+      "anonymousGET": "passed",
+      "sha256": "fcc24f042faf9ec1bfcec87aa48a3f847ce83aa39fadffc852d6d30c84c1f5fa",
+      "bytes": 35823
+    },
+    {
+      "file": "privacy.pdf",
+      "anonymousGET": "passed",
+      "sha256": "e0cf2f940758b146c24270931c4d3f729cd0c7e6653046e8c59ec5b27099e5b2",
+      "bytes": 36053
+    },
+    {
+      "file": "cooking-01.mp4",
+      "anonymousGET": "passed",
+      "sha256": "52488ebb8e84a30b4ab8411d5e4bbb01622ec44377d559f1275adfc36feaa076",
+      "bytes": 1110966
+    }
+  ]
+}

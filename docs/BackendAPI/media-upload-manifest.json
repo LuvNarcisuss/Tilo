@@ -1,0 +1,285 @@
+{
+  "objects": [
+    {
+      "bucket": "toli-catalog",
+      "key": "chef-01.jpg",
+      "sha256": "ad8048356abd6c51300664e75639a11fb61efda1b41c7b58be10584fb84ffff5",
+      "bytes": 215661,
+      "mime": "image/jpeg",
+      "publicURL": "https://hdapofqufmxlghmcrftg.supabase.co/storage/v1/object/public/toli-catalog/chef-01.jpg",
+      "status": "verified"
+    },
+    {
+      "bucket": "toli-catalog",
+      "key": "chef-02.jpg",
+      "sha256": "d6e00f11c1b6fb1edfc736237bea41c08618b5552e22a45cb1e70556c1ade301",
+      "bytes": 207007,
+      "mime": "image/jpeg",
+      "publicURL": "https://hdapofqufmxlghmcrftg.supabase.co/storage/v1/object/public/toli-catalog/chef-02.jpg",
+      "status": "verified"
+    },
+    {
+      "bucket": "toli-catalog",
+      "key": "chef-03.jpg",
+      "sha256": "659523a4fc7107f24b8833f9b4b3c77f43518f7be80cb09e838a085854c2352f",
+      "bytes": 200514,
+      "mime": "image/jpeg",
+      "publicURL": "https://hdapofqufmxlghmcrftg.supabase.co/storage/v1/object/public/toli-catalog/chef-03.jpg",
+      "status": "verified"
+    },
+    {
+      "bucket": "toli-catalog",
+      "key": "chef-04.jpg",
+      "sha256": "9ea201e99633f6b22db152966f5760cbaf4bf56a5435072c8e97bdff53234c73",
+      "bytes": 206069,
+      "mime": "image/jpeg",
+      "publicURL": "https://hdapofqufmxlghmcrftg.supabase.co/storage/v1/object/public/toli-catalog/chef-04.jpg",
+      "status": "verified"
+    },
+    {
+      "bucket": "toli-catalog",
+      "key": "chef-05.jpg",
+      "sha256": "0eb3168c5f265f4d08bcdd30993665125a73586808fbe688903ea53e4946b738",
+      "bytes": 108499,
+      "mime": "image/jpeg",
+      "publicURL": "https://hdapofqufmxlghmcrftg.supabase.co/storage/v1/object/public/toli-catalog/chef-05.jpg",
+      "status": "verified"
+    },
+    {
+      "bucket": "toli-catalog",
+      "key": "cooking-01.jpg",
+      "sha256": "8b4c3889198416ac63d8e6e32344c9551cf68258e271e4ef43b285c28da823bc",
+      "bytes": 18222,
+      "mime": "image/jpeg",
+      "publicURL": "https://hdapofqufmxlghmcrftg.supabase.co/storage/v1/object/public/toli-catalog/cooking-01.jpg",
+      "status": "verified"
+    },
+    {
+      "bucket": "toli-catalog",
+      "key": "cooking-01.mp4",
+      "sha256": "52488ebb8e84a30b4ab8411d5e4bbb01622ec44377d559f1275adfc36feaa076",
+      "bytes": 1110966,
+      "mime": "video/mp4",
+      "publicURL": "https://hdapofqufmxlghmcrftg.supabase.co/storage/v1/object/public/toli-catalog/cooking-01.mp4",
+      "status": "verified"
+    },
+    {
+      "bucket": "toli-catalog",
+      "key": "cooking-02.jpg",
+      "sha256": "d220e33f20af18dd5d9872e58df865c5f08e30b52e7bf50220d323626cf0515a",
+      "bytes": 30690,
+      "mime": "image/jpeg",
+      "publicURL": "https://hdapofqufmxlghmcrftg.supabase.co/storage/v1/object/public/toli-catalog/cooking-02.jpg",
+      "status": "verified"
+    },
+    {
+      "bucket": "toli-catalog",
+      "key": "cooking-02.mp4",
+      "sha256": "44de0fa46904af1142bcd7c12888efed2cd912f5154efbd6d3045a22f8918ea7",
+      "bytes": 816149,
+      "mime": "video/mp4",
+      "publicURL": "https://hdapofqufmxlghmcrftg.supabase.co/storage/v1/object/public/toli-catalog/cooking-02.mp4",
+      "status": "verified"
+    },
+    {
+      "bucket": "toli-catalog",
+      "key": "cooking-03.jpg",
+      "sha256": "05240c3d3bd03d35155734004cdca39f787299f21b27730aa7fd9bfa3d757654",
+      "bytes": 21608,
+      "mime": "image/jpeg",
+      "publicURL": "https://hdapofqufmxlghmcrftg.supabase.co/storage/v1/object/public/toli-catalog/cooking-03.jpg",
+      "status": "verified"
+    },
+    {
+      "bucket": "toli-catalog",
+      "key": "cooking-03.mp4",
+      "sha256": "0d8892545979987fde28db80eedfe7c5c638daacabc059c69ddbb7355be5317d",
+      "bytes": 671473,
+      "mime": "video/mp4",
+      "publicURL": "https://hdapofqufmxlghmcrftg.supabase.co/storage/v1/object/public/toli-catalog/cooking-03.mp4",
+      "status": "verified"
+    },
+    {
+      "bucket": "toli-catalog",
+      "key": "cooking-04.jpg",
+      "sha256": "6dff3cb84cf025a2e6e3696059320294688681c50775f9e6ab00af0a89f1e9da",
+      "bytes": 52587,
+      "mime": "image/jpeg",
+      "publicURL": "https://hdapofqufmxlghmcrftg.supabase.co/storage/v1/object/public/toli-catalog/cooking-04.jpg",
+      "status": "verified"
+    },
+    {
+      "bucket": "toli-catalog",
+      "key": "cooking-04.mp4",
+      "sha256": "f23d2cb4b97ddac2312ad4b5b37811c681c903d54cb410f25dd334cafdb48972",
+      "bytes": 3005628,
+      "mime": "video/mp4",
+      "publicURL": "https://hdapofqufmxlghmcrftg.supabase.co/storage/v1/object/public/toli-catalog/cooking-04.mp4",
+      "status": "verified"
+    },
+    {
+      "bucket": "toli-catalog",
+      "key": "cooking-05.jpg",
+      "sha256": "718a7b90b0b3671626cb9325268a22a25b55a3d0cc7b615ff4d3dd358110fe41",
+      "bytes": 52066,
+      "mime": "image/jpeg",
+      "publicURL": "https://hdapofqufmxlghmcrftg.supabase.co/storage/v1/object/public/toli-catalog/cooking-05.jpg",
+      "status": "verified"
+    },
+    {
+      "bucket": "toli-catalog",
+      "key": "cooking-05.mp4",
+      "sha256": "ec717bf74d00ffaf363ea84f6abcc6fa60bd5278b54fa3c2cf56f7976de2b86c",
+      "bytes": 1498179,
+      "mime": "video/mp4",
+      "publicURL": "https://hdapofqufmxlghmcrftg.supabase.co/storage/v1/object/public/toli-catalog/cooking-05.mp4",
+      "status": "verified"
+    },
+    {
+      "bucket": "toli-catalog",
+      "key": "cooking-06.jpg",
+      "sha256": "cfaab19cccde5bbbc7ec43b04c32ce98579c096a5cf80da8c31979777099a317",
+      "bytes": 18160,
+      "mime": "image/jpeg",
+      "publicURL": "https://hdapofqufmxlghmcrftg.supabase.co/storage/v1/object/public/toli-catalog/cooking-06.jpg",
+      "status": "verified"
+    },
+    {
+      "bucket": "toli-catalog",
+      "key": "cooking-06.mp4",
+      "sha256": "5980c010ea33c6a4afb6736fa85569a94112c31d8dd744f9f343d269204b2ce7",
+      "bytes": 958871,
+      "mime": "video/mp4",
+      "publicURL": "https://hdapofqufmxlghmcrftg.supabase.co/storage/v1/object/public/toli-catalog/cooking-06.mp4",
+      "status": "verified"
+    },
+    {
+      "bucket": "toli-catalog",
+      "key": "recipe-01.jpg",
+      "sha256": "46541fb95bd29fe250b05fabfdaca3f78f997885b032dc7c7cf2051543c55871",
+      "bytes": 380892,
+      "mime": "image/jpeg",
+      "publicURL": "https://hdapofqufmxlghmcrftg.supabase.co/storage/v1/object/public/toli-catalog/recipe-01.jpg",
+      "status": "verified"
+    },
+    {
+      "bucket": "toli-catalog",
+      "key": "recipe-02.jpg",
+      "sha256": "578f7683189cdfa9dacfc9f217a49c5c3482ee5f7f1374bfa53804d02929a756",
+      "bytes": 150665,
+      "mime": "image/jpeg",
+      "publicURL": "https://hdapofqufmxlghmcrftg.supabase.co/storage/v1/object/public/toli-catalog/recipe-02.jpg",
+      "status": "verified"
+    },
+    {
+      "bucket": "toli-catalog",
+      "key": "recipe-03.jpg",
+      "sha256": "1318daed4ca68559b086e4fc151973b35091a2a1ca4fe5b9abb19a1d5dba3ce4",
+      "bytes": 134057,
+      "mime": "image/jpeg",
+      "publicURL": "https://hdapofqufmxlghmcrftg.supabase.co/storage/v1/object/public/toli-catalog/recipe-03.jpg",
+      "status": "verified"
+    },
+    {
+      "bucket": "toli-catalog",
+      "key": "recipe-04.jpg",
+      "sha256": "97392505fb3a677d77f37437105f25dc9acc278cb80c8843779ba49be4c669b5",
+      "bytes": 108917,
+      "mime": "image/jpeg",
+      "publicURL": "https://hdapofqufmxlghmcrftg.supabase.co/storage/v1/object/public/toli-catalog/recipe-04.jpg",
+      "status": "verified"
+    },
+    {
+      "bucket": "toli-catalog",
+      "key": "recipe-05.jpg",
+      "sha256": "f377d3da449b72fc56a897fff2e83c5c18df5fc94b29517104c86a91762319cd",
+      "bytes": 109123,
+      "mime": "image/jpeg",
+      "publicURL": "https://hdapofqufmxlghmcrftg.supabase.co/storage/v1/object/public/toli-catalog/recipe-05.jpg",
+      "status": "verified"
+    },
+    {
+      "bucket": "toli-catalog",
+      "key": "recipe-06.jpg",
+      "sha256": "c23b1f30fb48ecec1094bf983d2fb43de14dfdbd9367ecac852ea70443b02873",
+      "bytes": 204544,
+      "mime": "image/jpeg",
+      "publicURL": "https://hdapofqufmxlghmcrftg.supabase.co/storage/v1/object/public/toli-catalog/recipe-06.jpg",
+      "status": "verified"
+    },
+    {
+      "bucket": "toli-catalog",
+      "key": "recipe-07.jpg",
+      "sha256": "8b22f6f949573d5e47a896fafaeb14c14ba812df64f5731de79ca479cf52ad13",
+      "bytes": 136759,
+      "mime": "image/jpeg",
+      "publicURL": "https://hdapofqufmxlghmcrftg.supabase.co/storage/v1/object/public/toli-catalog/recipe-07.jpg",
+      "status": "verified"
+    },
+    {
+      "bucket": "toli-catalog",
+      "key": "recipe-08.jpg",
+      "sha256": "21fae6fecba9b20a2effbc114335d7384bfd67b0745185f8f9b3de1b1c32bdb8",
+      "bytes": 394875,
+      "mime": "image/jpeg",
+      "publicURL": "https://hdapofqufmxlghmcrftg.supabase.co/storage/v1/object/public/toli-catalog/recipe-08.jpg",
+      "status": "verified"
+    },
+    {
+      "bucket": "toli-catalog",
+      "key": "recipe-09.jpg",
+      "sha256": "db1aa54cf4808db713454591fd2694f55343b8a1a31789b2a4eae0594d787976",
+      "bytes": 282863,
+      "mime": "image/jpeg",
+      "publicURL": "https://hdapofqufmxlghmcrftg.supabase.co/storage/v1/object/public/toli-catalog/recipe-09.jpg",
+      "status": "verified"
+    },
+    {
+      "bucket": "toli-catalog",
+      "key": "recipe-10.jpg",
+      "sha256": "4f15de9de8d86b78858dba16652db0a74d6059cb6a1b230593378a7b5f76a97e",
+      "bytes": 225060,
+      "mime": "image/jpeg",
+      "publicURL": "https://hdapofqufmxlghmcrftg.supabase.co/storage/v1/object/public/toli-catalog/recipe-10.jpg",
+      "status": "verified"
+    },
+    {
+      "bucket": "toli-catalog",
+      "key": "recipe-11.jpg",
+      "sha256": "45a8a7b2cbfd303441331ae742325961627415bf257554fa575c5b231b96a1da",
+      "bytes": 299085,
+      "mime": "image/jpeg",
+      "publicURL": "https://hdapofqufmxlghmcrftg.supabase.co/storage/v1/object/public/toli-catalog/recipe-11.jpg",
+      "status": "verified"
+    },
+    {
+      "bucket": "toli-catalog",
+      "key": "recipe-12.jpg",
+      "sha256": "9a694b995ec5462fa9aefbb52da5c504cac54710bc5d85500b66673798baf1a2",
+      "bytes": 392285,
+      "mime": "image/jpeg",
+      "publicURL": "https://hdapofqufmxlghmcrftg.supabase.co/storage/v1/object/public/toli-catalog/recipe-12.jpg",
+      "status": "verified"
+    },
+    {
+      "bucket": "legal",
+      "key": "2026-11-03/terms.pdf",
+      "sha256": "61bcb384b9164bf2b8b0cec03df8318b6a548f8962037ddc3ce2b30701793ebf",
+      "bytes": 35820,
+      "mime": "application/pdf",
+      "publicURL": "https://hdapofqufmxlghmcrftg.supabase.co/storage/v1/object/public/legal/2026-11-03/terms.pdf",
+      "status": "verified"
+    },
+    {
+      "bucket": "legal",
+      "key": "2026-11-03/privacy.pdf",
+      "sha256": "907eb0e3e934753517d5fbd42287ea824a39788f333de86df2e8180a4e7b6f33",
+      "bytes": 36053,
+      "mime": "application/pdf",
+      "publicURL": "https://hdapofqufmxlghmcrftg.supabase.co/storage/v1/object/public/legal/2026-11-03/privacy.pdf",
+      "status": "verified"
+    }
+  ],
+  "scope": "Initial November 3, 2026 deployment verification. Original legal object hashes are historical; current legal hashes and unchanged URLs are in legal/manifest.json.",
+  "currentLegalManifest": "legal/manifest.json"
+}

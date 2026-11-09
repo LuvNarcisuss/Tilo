@@ -1,0 +1,3 @@
+insert into storage.buckets(id,name,public,file_size_limit,allowed_mime_types) values('toli-catalog','toli-catalog',true,104857600,array['image/jpeg','image/png','video/mp4']),('recipe-photos','recipe-photos',true,10485760,array['image/jpeg','image/png']) on conflict(id) do nothing;
+create policy recipe_photo_insert on storage.objects for insert to authenticated with check(bucket_id='recipe-photos' and (storage.foldername(name))[1]=(select auth.uid())::text);
+create policy recipe_photo_delete on storage.objects for delete to authenticated using(bucket_id='recipe-photos' and (storage.foldername(name))[1]=(select auth.uid())::text);

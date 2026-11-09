@@ -1,0 +1,11 @@
+{
+  "project": "hdapofqufmxlghmcrftg",
+  "checkedAt": "2026-11-06T06:29:08.244Z",
+  "warnings": 20,
+  "errors": 0,
+  "types": [
+    "auth_allow_anonymous_sign_ins",
+    "auth_leaked_password_protection"
+  ],
+  "explanation": "Anonymous Auth identities intentionally use authenticated-role policies under existing ownership and membership predicates. Leaked password protection remains the pre-existing password-provider notice. No new public mutation grant was added."
+}

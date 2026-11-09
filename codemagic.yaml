@@ -1,0 +1,77 @@
+workflows:
+  tilo-ios-app-store: &tilo_app_store
+    name: Tilo iOS App Store
+    max_build_duration: 120
+    instance_type: mac_mini_m2
+
+    integrations:
+      app_store_connect: Tilo
+
+    environment:
+      xcode: "26.5"
+      ios_signing:
+        distribution_type: app_store
+        bundle_identifier: com.toli.cooking
+      vars:
+        APP_STORE_APPLE_ID: "6832414205"
+        XCODE_PROJECT: TiloApp/Tilo.xcodeproj
+        XCODE_SCHEME: TiloAppStore
+
+    scripts:
+      - name: Generate the Xcode project and shared schemes
+        script: |
+          #!/usr/bin/env bash
+          set -euo pipefail
+          cd "$CM_BUILD_DIR"
+          if ! command -v xcodegen >/dev/null; then
+            brew install xcodegen
+          fi
+          xcodegen generate --spec TiloApp/project.yml
+          test -f "$XCODE_PROJECT/xcshareddata/xcschemes/$XCODE_SCHEME.xcscheme"
+
+      - name: Apply App Store signing
+        script: |
+          #!/usr/bin/env bash
+          set -euo pipefail
+          cd "$CM_BUILD_DIR"
+          xcode-project use-profiles --project "$XCODE_PROJECT"
+
+      - name: Build the signed Release IPA
+        script: |
+          #!/usr/bin/env bash
+          set -euo pipefail
+          cd "$CM_BUILD_DIR"
+          latest_build="$(app-store-connect get-latest-build-number "$APP_STORE_APPLE_ID" --platform IOS --all-versions)"
+          latest_build="${latest_build:-0}"
+          ci_build="${PROJECT_BUILD_NUMBER:-1}"
+          if [[ ! "$latest_build" =~ ^[0-9]+$ || ! "$ci_build" =~ ^[0-9]+$ ]]; then
+            echo "Expected integer build numbers from App Store Connect and Codemagic." >&2
+            exit 1
+          fi
+          next_build=$((10#$latest_build + 1))
+          if (( 10#$ci_build > next_build )); then
+            next_build=$((10#$ci_build))
+          fi
+          echo "Using Tilo build number $next_build."
+
+          xcode-project build-ipa \
+            --project "$XCODE_PROJECT" \
+            --scheme "$XCODE_SCHEME" \
+            --config Release \
+            --archive-xcargs "CURRENT_PROJECT_VERSION=$next_build" \
+            --ipa-directory "$CM_BUILD_DIR/build/ios/ipa"
+
+    artifacts:
+      - build/ios/ipa/*.ipa
+      - /tmp/xcodebuild_logs/*.log
+
+    publishing:
+      app_store_connect:
+        auth: integration
+        submit_to_testflight: false
+        submit_to_app_store: false
+
+  tilo-ios-signing-validation:
+    <<: *tilo_app_store
+    name: Tilo iOS Signing Validation
+    publishing: {}

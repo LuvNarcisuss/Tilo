@@ -1,0 +1,597 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-11-03",
+  "icons": [
+    {
+      "name": "icon-live",
+      "atlasBox": [
+        0,
+        0,
+        209,
+        267
+      ],
+      "alphaBounds": [
+        17,
+        32,
+        209,
+        267
+      ]
+    },
+    {
+      "name": "icon-recipes",
+      "atlasBox": [
+        209,
+        0,
+        418,
+        267
+      ],
+      "alphaBounds": [
+        0,
+        47,
+        209,
+        267
+      ]
+    },
+    {
+      "name": "icon-kitchen",
+      "atlasBox": [
+        418,
+        0,
+        627,
+        267
+      ],
+      "alphaBounds": [
+        16,
+        33,
+        209,
+        243
+      ]
+    },
+    {
+      "name": "icon-chats",
+      "atlasBox": [
+        627,
+        0,
+        836,
+        267
+      ],
+      "alphaBounds": [
+        1,
+        36,
+        205,
+        255
+      ]
+    },
+    {
+      "name": "icon-me",
+      "atlasBox": [
+        836,
+        0,
+        1045,
+        267
+      ],
+      "alphaBounds": [
+        7,
+        31,
+        183,
+        267
+      ]
+    },
+    {
+      "name": "icon-search",
+      "atlasBox": [
+        1045,
+        0,
+        1254,
+        267
+      ],
+      "alphaBounds": [
+        16,
+        60,
+        191,
+        239
+      ]
+    },
+    {
+      "name": "icon-back",
+      "atlasBox": [
+        0,
+        267,
+        209,
+        466
+      ],
+      "alphaBounds": [
+        35,
+        0,
+        209,
+        169
+      ]
+    },
+    {
+      "name": "icon-close",
+      "atlasBox": [
+        209,
+        267,
+        418,
+        466
+      ],
+      "alphaBounds": [
+        0,
+        1,
+        201,
+        172
+      ]
+    },
+    {
+      "name": "icon-plus",
+      "atlasBox": [
+        418,
+        267,
+        627,
+        466
+      ],
+      "alphaBounds": [
+        27,
+        30,
+        209,
+        185
+      ]
+    },
+    {
+      "name": "icon-more",
+      "atlasBox": [
+        627,
+        267,
+        836,
+        466
+      ],
+      "alphaBounds": [
+        21,
+        7,
+        189,
+        197
+      ]
+    },
+    {
+      "name": "icon-heart",
+      "atlasBox": [
+        836,
+        267,
+        1045,
+        466
+      ],
+      "alphaBounds": [
+        9,
+        1,
+        182,
+        199
+      ]
+    },
+    {
+      "name": "icon-bookmark",
+      "atlasBox": [
+        1045,
+        267,
+        1254,
+        466
+      ],
+      "alphaBounds": [
+        31,
+        19,
+        191,
+        186
+      ]
+    },
+    {
+      "name": "icon-send",
+      "atlasBox": [
+        0,
+        466,
+        209,
+        677
+      ],
+      "alphaBounds": [
+        20,
+        43,
+        209,
+        193
+      ]
+    },
+    {
+      "name": "icon-gift",
+      "atlasBox": [
+        209,
+        466,
+        418,
+        677
+      ],
+      "alphaBounds": [
+        22,
+        1,
+        194,
+        211
+      ]
+    },
+    {
+      "name": "icon-diamond",
+      "atlasBox": [
+        418,
+        466,
+        627,
+        677
+      ],
+      "alphaBounds": [
+        17,
+        2,
+        209,
+        200
+      ]
+    },
+    {
+      "name": "icon-share",
+      "atlasBox": [
+        627,
+        466,
+        836,
+        677
+      ],
+      "alphaBounds": [
+        1,
+        9,
+        199,
+        211
+      ]
+    },
+    {
+      "name": "icon-settings",
+      "atlasBox": [
+        836,
+        466,
+        1045,
+        677
+      ],
+      "alphaBounds": [
+        3,
+        0,
+        185,
+        211
+      ]
+    },
+    {
+      "name": "icon-bell",
+      "atlasBox": [
+        1045,
+        466,
+        1254,
+        677
+      ],
+      "alphaBounds": [
+        14,
+        19,
+        180,
+        201
+      ]
+    },
+    {
+      "name": "icon-camera",
+      "atlasBox": [
+        0,
+        677,
+        209,
+        864
+      ],
+      "alphaBounds": [
+        15,
+        27,
+        209,
+        173
+      ]
+    },
+    {
+      "name": "icon-microphone",
+      "atlasBox": [
+        209,
+        677,
+        418,
+        864
+      ],
+      "alphaBounds": [
+        0,
+        0,
+        207,
+        183
+      ]
+    },
+    {
+      "name": "icon-video",
+      "atlasBox": [
+        418,
+        677,
+        627,
+        864
+      ],
+      "alphaBounds": [
+        14,
+        7,
+        203,
+        187
+      ]
+    },
+    {
+      "name": "icon-speaker",
+      "atlasBox": [
+        627,
+        677,
+        836,
+        864
+      ],
+      "alphaBounds": [
+        1,
+        1,
+        195,
+        187
+      ]
+    },
+    {
+      "name": "icon-play",
+      "atlasBox": [
+        836,
+        677,
+        1045,
+        864
+      ],
+      "alphaBounds": [
+        31,
+        1,
+        207,
+        187
+      ]
+    },
+    {
+      "name": "icon-pause",
+      "atlasBox": [
+        1045,
+        677,
+        1254,
+        864
+      ],
+      "alphaBounds": [
+        33,
+        2,
+        162,
+        173
+      ]
+    },
+    {
+      "name": "icon-shield",
+      "atlasBox": [
+        0,
+        864,
+        209,
+        1056
+      ],
+      "alphaBounds": [
+        42,
+        13,
+        205,
+        183
+      ]
+    },
+    {
+      "name": "icon-flag",
+      "atlasBox": [
+        209,
+        864,
+        418,
+        1056
+      ],
+      "alphaBounds": [
+        3,
+        5,
+        209,
+        183
+      ]
+    },
+    {
+      "name": "icon-person",
+      "atlasBox": [
+        418,
+        864,
+        627,
+        1056
+      ],
+      "alphaBounds": [
+        19,
+        21,
+        180,
+        171
+      ]
+    },
+    {
+      "name": "icon-group",
+      "atlasBox": [
+        627,
+        864,
+        836,
+        1056
+      ],
+      "alphaBounds": [
+        1,
+        1,
+        209,
+        192
+      ]
+    },
+    {
+      "name": "icon-trash",
+      "atlasBox": [
+        836,
+        864,
+        1045,
+        1056
+      ],
+      "alphaBounds": [
+        9,
+        0,
+        205,
+        191
+      ]
+    },
+    {
+      "name": "icon-pencil",
+      "atlasBox": [
+        1045,
+        864,
+        1254,
+        1056
+      ],
+      "alphaBounds": [
+        1,
+        5,
+        181,
+        181
+      ]
+    },
+    {
+      "name": "icon-check",
+      "atlasBox": [
+        0,
+        1056,
+        209,
+        1254
+      ],
+      "alphaBounds": [
+        32,
+        24,
+        201,
+        158
+      ]
+    },
+    {
+      "name": "icon-clock",
+      "atlasBox": [
+        209,
+        1056,
+        418,
+        1254
+      ],
+      "alphaBounds": [
+        1,
+        8,
+        205,
+        183
+      ]
+    },
+    {
+      "name": "icon-calendar",
+      "atlasBox": [
+        418,
+        1056,
+        627,
+        1254
+      ],
+      "alphaBounds": [
+        11,
+        6,
+        209,
+        183
+      ]
+    },
+    {
+      "name": "icon-list",
+      "atlasBox": [
+        627,
+        1056,
+        836,
+        1254
+      ],
+      "alphaBounds": [
+        0,
+        0,
+        207,
+        182
+      ]
+    },
+    {
+      "name": "icon-info",
+      "atlasBox": [
+        836,
+        1056,
+        1045,
+        1254
+      ],
+      "alphaBounds": [
+        14,
+        16,
+        179,
+        198
+      ]
+    },
+    {
+      "name": "icon-cutlery",
+      "atlasBox": [
+        1045,
+        1056,
+        1254,
+        1254
+      ],
+      "alphaBounds": [
+        33,
+        6,
+        163,
+        184
+      ]
+    }
+  ],
+  "outputs": {
+    "tilo-icon-atlas.png": "9d1ed01d4d4c1f32f4da21598d42ddfdda2365062cf7fad77b0784642e50cf0c",
+    "tilo-background.png": "76ba2d85ae07a4493107dde5cfd5849201e90d8396e87560ae2138c2ec9adbc2",
+    "tilo-app-mark.png": "b56a4e4142e1d16f152d7b5a0aea7b1d9bcfe5bbf32b6d33618be52c57831132",
+    "tilo-heart-outline.png": "5a8b00f8781938f189db7226c73621d214c3d316c63874de6a286fb5ee9ca7eb",
+    "tilo-bookmark-filled.png": "cb074838465501c21c52b46217c9b53563ea55118a92622b8bebbb1eb693faf1",
+    "tilo-bookmark-filled-yellow.png": "fe456f3703ca5b0470d029cec3e6c9983df704f342191a08e8834c2dd3d27457",
+    "tilo-bookmark-outline.png": "c3f2f6ac5a7c68213bcfbbe40ba0bc85f4b596644380f566b26443eae6ba1f5a"
+  },
+  "additions": [
+    {
+      "name": "icon-heartOutline",
+      "date": "2026-11-05",
+      "tool": "built-in image_gen",
+      "source": "Assets/Generated/tilo-heart-outline.png",
+      "runtime": "TiloApp/Tilo/Resources/Assets.xcassets/icon-heartOutline.imageset/icon-heartOutline.png",
+      "sha256": "c47ad5cf17b25c9a3095d19af9443d116ce900834a1f40cb0911d9c89d256c4c",
+      "processing": "Proportional 256px PNG resize; generated alpha retained."
+    },
+    {
+      "name": "icon-bookmarkFilled",
+      "date": "2026-11-05",
+      "tool": "built-in image_gen",
+      "source": "Assets/Generated/tilo-bookmark-filled.png",
+      "processing": "Proportional 256px PNG resize; generated alpha retained.",
+      "status": "Superseded by owner-selected yellow fill; source retained outside app target."
+    },
+    {
+      "name": "icon-bookmarkFilled",
+      "date": "2026-11-05",
+      "tool": "built-in image_gen",
+      "source": "Assets/Generated/tilo-bookmark-filled-yellow.png",
+      "runtime": "TiloApp/Tilo/Resources/Assets.xcassets/icon-bookmarkFilled.imageset/icon-bookmarkFilled.png",
+      "sha256": "90284d63de2436ebc2bba46bad9699c6647f02f44dbfaa6c84109b49ea8ea22c",
+      "processing": "Crop bounds use alpha >= 32 to exclude almost-transparent generation noise; proportional 150x174px fit centered in 256px transparent canvas; original generated alpha retained."
+    },
+    {
+      "name": "icon-bookmarkOutline",
+      "date": "2026-11-05",
+      "tool": "built-in image_gen",
+      "source": "Assets/Generated/tilo-bookmark-outline.png",
+      "runtime": "TiloApp/Tilo/Resources/Assets.xcassets/icon-bookmarkOutline.imageset/icon-bookmarkOutline.png",
+      "sha256": "65c4c14d140402c33e32d4a16e9301e1eb329752d1f73818bd042db5c7781774",
+      "processing": "Crop bounds use alpha >= 32 to exclude almost-transparent generation noise; proportional 150x174px fit centered in 256px transparent canvas; original generated alpha retained."
+    }
+  ],
+  "activeBrand": {
+    "source": "Assets/Brand/TiloLogo.png",
+    "provenance": "Owner-supplied artwork",
+    "sha256": "b7beb1b9b6eb8b99480c78ee9ba49e24b7b1fca51a7ae33993f9dbb26bc29c6b"
+  }
+}

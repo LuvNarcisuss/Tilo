@@ -1,0 +1,164 @@
+[
+  {
+    "id": "cooking-01",
+    "kind": "video",
+    "title": "Skillet pasta",
+    "sourceURL": "https://www.pexels.com/video/pasta-kitchen-cooking-indoors-4253144/",
+    "author": "cottonbro studio",
+    "license": "Pexels License",
+    "licenseURL": "https://www.pexels.com/license/"
+  },
+  {
+    "id": "cooking-02",
+    "kind": "video",
+    "title": "Pancakes on the griddle",
+    "sourceURL": "https://www.pexels.com/video/cooking-pancakes-7010647/",
+    "author": "Vlada Karpovich",
+    "license": "Pexels License",
+    "licenseURL": "https://www.pexels.com/license/"
+  },
+  {
+    "id": "cooking-03",
+    "kind": "video",
+    "title": "Colorful skillet vegetables",
+    "sourceURL": "https://www.pexels.com/video/close-up-shot-of-cooking-vegetables-in-the-pan-7963455/",
+    "author": "Kampus Production",
+    "license": "Pexels License",
+    "licenseURL": "https://www.pexels.com/license/"
+  },
+  {
+    "id": "cooking-04",
+    "kind": "video",
+    "title": "Seasoning grilled steak",
+    "sourceURL": "https://www.pexels.com/video/a-steak-being-prepared-on-a-cutting-board-28478427/",
+    "author": "Kuiyibo Campos",
+    "license": "Pexels License",
+    "licenseURL": "https://www.pexels.com/license/"
+  },
+  {
+    "id": "cooking-05",
+    "kind": "video",
+    "title": "Kneading homemade dough",
+    "sourceURL": "https://www.pexels.com/video/a-woman-kneading-a-dough-6942824/",
+    "author": "Pavel Danilyuk",
+    "license": "Pexels License",
+    "licenseURL": "https://www.pexels.com/license/"
+  },
+  {
+    "id": "cooking-06",
+    "kind": "video",
+    "title": "Tossing a fresh salad",
+    "sourceURL": "https://www.pexels.com/video/a-young-woman-preparing-a-vegetable-salad-6707706/",
+    "author": "Mikhail Nilov",
+    "license": "Pexels License",
+    "licenseURL": "https://www.pexels.com/license/"
+  },
+  {
+    "id": "recipe-01",
+    "kind": "photo",
+    "title": "Tomato basil spaghetti",
+    "sourceURL": "https://www.pexels.com/photo/a-plate-of-spaghetti-on-table-4057752/",
+    "author": "cottonbro studio",
+    "license": "Pexels License",
+    "licenseURL": "https://www.pexels.com/license/"
+  },
+  {
+    "id": "recipe-02",
+    "kind": "photo",
+    "title": "Berry pancakes",
+    "sourceURL": "https://www.pexels.com/photo/a-stack-of-pancakes-on-a-plate-6758389/",
+    "author": "alleksana",
+    "license": "Pexels License",
+    "licenseURL": "https://www.pexels.com/license/"
+  },
+  {
+    "id": "recipe-03",
+    "kind": "photo",
+    "title": "Cheeseburger and fries",
+    "sourceURL": "https://www.pexels.com/photo/close-up-shot-of-burger-and-fries-11812583/",
+    "author": "MARIANNE RIXHON",
+    "license": "Pexels License",
+    "licenseURL": "https://www.pexels.com/license/"
+  },
+  {
+    "id": "recipe-04",
+    "kind": "photo",
+    "title": "Margherita pizza",
+    "sourceURL": "https://www.pexels.com/photo/pizza-on-white-ceramic-plate-5280912/",
+    "author": "Sobee Berly",
+    "license": "Pexels License",
+    "licenseURL": "https://www.pexels.com/license/"
+  },
+  {
+    "id": "recipe-05",
+    "kind": "photo",
+    "title": "Grilled salmon",
+    "sourceURL": "https://www.pexels.com/photo/delicious-grilled-salmon-fillets-on-plate-31043029/",
+    "author": "Giovanna Kamimura",
+    "license": "Pexels License",
+    "licenseURL": "https://www.pexels.com/license/"
+  },
+  {
+    "id": "recipe-06",
+    "kind": "photo",
+    "title": "Pepper steak",
+    "sourceURL": "https://www.pexels.com/photo/close-up-shot-of-a-steak-on-a-plate-15382851/",
+    "author": "Nadin Sh",
+    "license": "Pexels License",
+    "licenseURL": "https://www.pexels.com/license/"
+  },
+  {
+    "id": "recipe-07",
+    "kind": "photo",
+    "title": "Vegetable soup",
+    "sourceURL": "https://www.pexels.com/photo/soup-in-bowl-8601392/",
+    "author": "Polina Tankilevitch",
+    "license": "Pexels License",
+    "licenseURL": "https://www.pexels.com/license/"
+  },
+  {
+    "id": "recipe-08",
+    "kind": "photo",
+    "title": "Garden salad",
+    "sourceURL": "https://www.pexels.com/photo/bowl-of-salad-2821743/",
+    "author": "Madison Inouye",
+    "license": "Pexels License",
+    "licenseURL": "https://www.pexels.com/license/"
+  },
+  {
+    "id": "recipe-09",
+    "kind": "photo",
+    "title": "Roast chicken and potatoes",
+    "sourceURL": "https://www.pexels.com/photo/succulent-roasted-chicken-with-vegetables-31233881/",
+    "author": "Mahmoud Salem",
+    "license": "Pexels License",
+    "licenseURL": "https://www.pexels.com/license/"
+  },
+  {
+    "id": "recipe-10",
+    "kind": "photo",
+    "title": "Tomato basil bruschetta",
+    "sourceURL": "https://www.pexels.com/photo/close-up-photo-of-a-bruschetta-7432986/",
+    "author": "Lucie Liz",
+    "license": "Pexels License",
+    "licenseURL": "https://www.pexels.com/license/"
+  },
+  {
+    "id": "recipe-11",
+    "kind": "photo",
+    "title": "Roasted tomato mozzarella toast",
+    "sourceURL": "https://www.pexels.com/photo/italian-bruschetta-with-roasted-tomatoes-and-mozzarella-cheese-served-on-plate-4409496/",
+    "author": "Nadezhda Moryak",
+    "license": "Pexels License",
+    "licenseURL": "https://www.pexels.com/license/"
+  },
+  {
+    "id": "recipe-12",
+    "kind": "photo",
+    "title": "Herb chicken tray bake",
+    "sourceURL": "https://www.pexels.com/photo/cooked-chicken-with-potatoes-on-black-metal-tray-4589139/",
+    "author": "ArtHouse Studio",
+    "license": "Pexels License",
+    "licenseURL": "https://www.pexels.com/license/"
+  }
+]

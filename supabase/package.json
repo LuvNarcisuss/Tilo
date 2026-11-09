@@ -1,0 +1,9 @@
+{
+  "private": true,
+  "type": "module",
+  "description": "Finite deployment verification utilities; excluded from the iOS app.",
+  "dependencies": {
+    "@supabase/supabase-js": "2.80.0"
+  },
+  "name": "tilo-backend-verification"
+}

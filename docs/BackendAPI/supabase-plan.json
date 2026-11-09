@@ -1,0 +1,111 @@
+{
+  "stage": "A",
+  "app": "Toli",
+  "status": "139 backend deployed and independently verified with real anonymous Auth; native build/runtime not authorized",
+  "creationAttempt": {
+    "id": "toli-139-20261103-a",
+    "name": "Toli-139-20261103",
+    "organization": "wuwstedwrsfrxkbxjuqa",
+    "region": "ap-southeast-1",
+    "status": "created_active_healthy",
+    "cost": {
+      "amount": 0,
+      "recurrence": "monthly"
+    },
+    "createdAt": "2026-11-03T07:02:41.9309Z"
+  },
+  "projectRef": "hdapofqufmxlghmcrftg",
+  "projectURL": "https://hdapofqufmxlghmcrftg.supabase.co",
+  "supersededProject": {
+    "ref": "lyotjdrnsdoernrcwwfd",
+    "account": "tely",
+    "preserved": true,
+    "maintenanceIngress": "Disabled version 4",
+    "historicalEvidence": "history/tely-20261103",
+    "cleanupResponsibility": "Owner",
+    "deletionStatus": "Not deleted by Codex; owner will delete manually per latest instruction on 2026-11-03"
+  },
+  "verification": {
+    "backendAssertionsPassed": 70,
+    "backendEvidence": "backend-verification.json",
+    "identityType": "Three disposable real anonymous Supabase Auth identities",
+    "iosBuild": "Not authorized; not performed",
+    "iosRuntime": "Not authorized; not performed",
+    "anonymousAuth": {
+      "status": "Enabled through authorized dashboard; three actual anonymous sessions verified"
+    },
+    "media": {
+      "objects": 31,
+      "bytes": 12083347,
+      "method": "Anonymous public GET, SHA-256, MIME and byte length matched"
+    },
+    "catalog": {
+      "recipes": 12,
+      "videos": 6,
+      "allFieldsMatchedCurrentSource": true,
+      "correctedVideoRecipeMappings": true
+    },
+    "cleanup": {
+      "authUsers": 0,
+      "profiles": 0,
+      "messages": 0,
+      "consents": 0,
+      "userMediaObjects": 0
+    },
+    "remainingEditorial": {
+      "recipes": 12,
+      "videos": 6,
+      "catalogObjects": 29,
+      "legalObjects": 2
+    },
+    "currentReadOnlyRecheck": {
+      "date": "2026-11-03",
+      "projectStatus": "ACTIVE_HEALTHY",
+      "recipes": 12,
+      "videos": 6,
+      "catalogObjects": 29,
+      "legalObjects": 2,
+      "applicationBinding": "hdapofqufmxlghmcrftg"
+    }
+  },
+  "functions": {
+    "bootstrap": {
+      "version": 1,
+      "authentication": "Own Auth user verification"
+    },
+    "delete-account": {
+      "version": 1,
+      "authentication": "Own Auth user verification"
+    },
+    "catalog-ingest": {
+      "version": 2,
+      "status": "Disabled; actual HTTP 410 verified"
+    }
+  },
+  "swiftSDK": {
+    "url": "https://github.com/supabase/supabase-swift",
+    "version": "2.55.6",
+    "product": "Supabase"
+  },
+  "latestMigration": "20261103085904_toli_139_backend",
+  "legal": {
+    "contact": "support@toli.com",
+    "contactStatus": "Proposed; activation not confirmed",
+    "version": "2026-11-06-99d6afcc3037",
+    "manifest": "legal/manifest.json",
+    "publicVerified": true,
+    "changePolicy": "Frozen after initial user delivery; only explicit user request authorizes later changes",
+    "effectiveDate": "2026-11-06",
+    "linksPreserved": true,
+    "updateEvidence": "legal/update-2026-11-06/report.md"
+  },
+  "clientSource": "TiloApp/Tilo/Backend",
+  "stageB": "Not started; no external authentication, external Socket, WebView routing, remote payment integration or AI",
+  "documentation": "docs/BackendAPI/integration.md",
+  "securityAdvisors": {
+    "anonymousAccessPolicyWarnings": 17,
+    "disposition": "Expected for selected anonymous Auth; actual account/member isolation verified",
+    "leakedPasswordProtection": "Disabled; no production password login UI",
+    "realtimeAnnotation": "Reported policy name not present in actual realtime pg_policies; no platform table mutation"
+  }
+}

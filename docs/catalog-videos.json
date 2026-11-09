@@ -1,0 +1,80 @@
+[
+  {
+    "id": "cooking-01",
+    "title": "Skillet pasta",
+    "category": "Pasta",
+    "image_url": "https://hdapofqufmxlghmcrftg.supabase.co/storage/v1/object/public/toli-catalog/cooking-01.jpg",
+    "video_url": "https://hdapofqufmxlghmcrftg.supabase.co/storage/v1/object/public/toli-catalog/cooking-01.mp4",
+    "payload": {
+      "chef": "cottonbro studio",
+      "durationSeconds": 20,
+      "summary": "A sourced cooking film, presented as a replay. Filmmaker credit: cottonbro studio. No live audience or message delivery is implied.",
+      "recipeID": "recipe-01"
+    }
+  },
+  {
+    "id": "cooking-02",
+    "title": "Pancakes on the griddle",
+    "category": "Breakfast",
+    "image_url": "https://hdapofqufmxlghmcrftg.supabase.co/storage/v1/object/public/toli-catalog/cooking-02.jpg",
+    "video_url": "https://hdapofqufmxlghmcrftg.supabase.co/storage/v1/object/public/toli-catalog/cooking-02.mp4",
+    "payload": {
+      "chef": "Vlada Karpovich",
+      "durationSeconds": 10,
+      "summary": "A sourced cooking film, presented as a replay. Filmmaker credit: Vlada Karpovich. No live audience or message delivery is implied.",
+      "recipeID": "recipe-02"
+    }
+  },
+  {
+    "id": "cooking-03",
+    "title": "Colorful skillet vegetables",
+    "category": "Vegetables",
+    "image_url": "https://hdapofqufmxlghmcrftg.supabase.co/storage/v1/object/public/toli-catalog/cooking-03.jpg",
+    "video_url": "https://hdapofqufmxlghmcrftg.supabase.co/storage/v1/object/public/toli-catalog/cooking-03.mp4",
+    "payload": {
+      "chef": "Kampus Production",
+      "durationSeconds": 8,
+      "summary": "A sourced cooking film, presented as a replay. Filmmaker credit: Kampus Production. No live audience or message delivery is implied.",
+      "recipeID": null
+    }
+  },
+  {
+    "id": "cooking-04",
+    "title": "Seasoning grilled steak",
+    "category": "Dinner",
+    "image_url": "https://hdapofqufmxlghmcrftg.supabase.co/storage/v1/object/public/toli-catalog/cooking-04.jpg",
+    "video_url": "https://hdapofqufmxlghmcrftg.supabase.co/storage/v1/object/public/toli-catalog/cooking-04.mp4",
+    "payload": {
+      "chef": "Kuiyibo Campos",
+      "durationSeconds": 20,
+      "summary": "A sourced cooking film, presented as a replay. Filmmaker credit: Kuiyibo Campos. No live audience or message delivery is implied.",
+      "recipeID": "recipe-06"
+    }
+  },
+  {
+    "id": "cooking-05",
+    "title": "Kneading homemade dough",
+    "category": "Baking",
+    "image_url": "https://hdapofqufmxlghmcrftg.supabase.co/storage/v1/object/public/toli-catalog/cooking-05.jpg",
+    "video_url": "https://hdapofqufmxlghmcrftg.supabase.co/storage/v1/object/public/toli-catalog/cooking-05.mp4",
+    "payload": {
+      "chef": "Pavel Danilyuk",
+      "durationSeconds": 13,
+      "summary": "A sourced cooking film, presented as a replay. Filmmaker credit: Pavel Danilyuk. No live audience or message delivery is implied.",
+      "recipeID": "recipe-04"
+    }
+  },
+  {
+    "id": "cooking-06",
+    "title": "Tossing a fresh salad",
+    "category": "Salads",
+    "image_url": "https://hdapofqufmxlghmcrftg.supabase.co/storage/v1/object/public/toli-catalog/cooking-06.jpg",
+    "video_url": "https://hdapofqufmxlghmcrftg.supabase.co/storage/v1/object/public/toli-catalog/cooking-06.mp4",
+    "payload": {
+      "chef": "Mikhail Nilov",
+      "durationSeconds": 20,
+      "summary": "A sourced cooking film, presented as a replay. Filmmaker credit: Mikhail Nilov. No live audience or message delivery is implied.",
+      "recipeID": "recipe-08"
+    }
+  }
+]

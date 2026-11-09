@@ -1,0 +1,18 @@
+[
+  {
+    "file": "TiloApp/Tilo/Resources/Fonts/Kalam-Bold.ttf",
+    "sha256": "2f6576601db015d4f6c08678120277fc8510b98c06e932ce7a6a9cbff4cbdded",
+    "license": "Kalam-OFL.txt",
+    "source": "Unmodified licensed font asset from the owner-selected Bibi reference project",
+    "upstreamReference": "https://github.com/google/fonts/tree/main/ofl/kalam",
+    "modifications": "None"
+  },
+  {
+    "file": "TiloApp/Tilo/Resources/Fonts/ComicNeue-Regular.ttf",
+    "sha256": "a0ee5a37c8b27c4db0700137d928598b1e23b0089e1546a8961909176b779360",
+    "license": "ComicNeue-OFL.txt",
+    "source": "Unmodified licensed font asset from the owner-selected Bibi reference project",
+    "upstreamReference": "https://github.com/google/fonts/tree/main/ofl/comicneue",
+    "modifications": "None"
+  }
+]

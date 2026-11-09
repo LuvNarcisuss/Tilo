@@ -1,0 +1,129 @@
+name: Tilo
+options:
+  deploymentTarget:
+    iOS: "16.0"
+  developmentLanguage: en
+  createIntermediateGroups: true
+settings:
+  base:
+    SWIFT_VERSION: "5.0"
+    MARKETING_VERSION: "1.0.0"
+    CURRENT_PROJECT_VERSION: "1"
+    TARGETED_DEVICE_FAMILY: "1"
+    SUPPORTS_MACCATALYST: false
+    SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD: false
+    SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD: false
+    SUPPORTED_PLATFORMS: "iphoneos iphonesimulator"
+packages:
+  Supabase:
+    url: https://github.com/supabase/supabase-swift.git
+    exactVersion: 2.55.6
+targets:
+  Tilo:
+    type: application
+    platform: iOS
+    sources:
+      - path: Tilo
+        excludes:
+          - Support/Info.plist
+          - Resources/Media
+    dependencies:
+      - package: Supabase
+        product: Supabase
+    settings:
+      base:
+        PRODUCT_NAME: Tilo
+        TARGETED_DEVICE_FAMILY: "1"
+        PRODUCT_BUNDLE_IDENTIFIER: com.toli.cooking
+        INFOPLIST_FILE: Tilo/Support/Info.plist
+        GENERATE_INFOPLIST_FILE: false
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        CODE_SIGN_STYLE: Automatic
+        INFOPLIST_KEY_UIRequiresFullScreen: YES
+  TiloUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    sources:
+      - path: TiloUITests
+      - path: Configuration/TiloDiamonds.storekit
+        buildPhase: resources
+    dependencies:
+      - target: Tilo
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.toli.cooking.uitests
+        TARGETED_DEVICE_FAMILY: "1"
+        GENERATE_INFOPLIST_FILE: YES
+        TEST_TARGET_NAME: Tilo
+  TiloPurchaseTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - path: TiloPurchaseTests
+      - path: Configuration/TiloDiamonds.storekit
+        buildPhase: resources
+    dependencies:
+      - target: Tilo
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.toli.cooking.purchasetests
+        TARGETED_DEVICE_FAMILY: "1"
+        GENERATE_INFOPLIST_FILE: YES
+schemes:
+  Tilo:
+    build:
+      targets:
+        Tilo: all
+        TiloUITests: [test]
+    test:
+      config: Debug
+      targets:
+        - name: TiloUITests
+          parallelizable: false
+    run:
+      config: Debug
+      storeKitConfiguration: Configuration/TiloDiamonds.storekit
+      environmentVariables:
+        TILO_STOREKIT_MODE: local
+    archive:
+      config: Release
+  TiloAppStore:
+    build:
+      targets:
+        Tilo: all
+    run:
+      config: Debug
+    archive:
+      config: Release
+  TiloPurchases:
+    build:
+      targets:
+        Tilo: all
+        TiloPurchaseTests: [test]
+    test:
+      config: Debug
+      targets:
+        - name: TiloPurchaseTests
+          parallelizable: false
+    run:
+      config: Debug
+      storeKitConfiguration: Configuration/TiloDiamonds.storekit
+      environmentVariables:
+        TILO_STOREKIT_MODE: local
+  TiloLocalStore:
+    build:
+      targets:
+        Tilo: all
+        TiloUITests: [test]
+    test:
+      config: Debug
+      targets:
+        - name: TiloUITests
+          parallelizable: false
+          selectedTests:
+            - TiloWalletPurchaseUITests
+    run:
+      config: Debug
+      storeKitConfiguration: Configuration/TiloDiamonds.storekit
+      environmentVariables:
+        TILO_STOREKIT_MODE: local

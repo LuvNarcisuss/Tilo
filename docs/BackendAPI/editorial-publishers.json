@@ -1,0 +1,110 @@
+[
+  {
+    "id": "647cd9d0-1b03-4eea-a9b8-262a9163f757",
+    "key": "editorial-pasta",
+    "name": "Tilo Pasta Table",
+    "username": "tilo_pasta",
+    "bio": "Pasta, pizza and a little Italian inspiration.",
+    "avatarURL": "https://hdapofqufmxlghmcrftg.supabase.co/storage/v1/object/public/toli-catalog/chef-01.jpg",
+    "baseline": {
+      "likes": 25,
+      "saves": 16,
+      "following": 18,
+      "followers": 24
+    },
+    "recipes": [
+      "recipe-01",
+      "recipe-04",
+      "recipe-10"
+    ],
+    "videos": [
+      "cooking-01"
+    ]
+  },
+  {
+    "id": "abaaadb7-6958-4e44-9178-ecade515524a",
+    "key": "editorial-breakfast",
+    "name": "Tilo Breakfast Club",
+    "username": "tilo_breakfast",
+    "bio": "Slow mornings and favorite breakfasts.",
+    "avatarURL": "https://hdapofqufmxlghmcrftg.supabase.co/storage/v1/object/public/toli-catalog/chef-02.jpg",
+    "baseline": {
+      "likes": 17,
+      "saves": 13,
+      "following": 20,
+      "followers": 13
+    },
+    "recipes": [
+      "recipe-02",
+      "recipe-11"
+    ],
+    "videos": [
+      "cooking-02"
+    ]
+  },
+  {
+    "id": "60978558-2660-4441-bd7e-012f7b5ce949",
+    "key": "editorial-home",
+    "name": "Tilo Home Kitchen",
+    "username": "tilo_home",
+    "bio": "Comforting dinners for the everyday table.",
+    "avatarURL": "https://hdapofqufmxlghmcrftg.supabase.co/storage/v1/object/public/toli-catalog/chef-03.jpg",
+    "baseline": {
+      "likes": 16,
+      "saves": 15,
+      "following": 22,
+      "followers": 12
+    },
+    "recipes": [
+      "recipe-03",
+      "recipe-06",
+      "recipe-09"
+    ],
+    "videos": [
+      "cooking-04"
+    ]
+  },
+  {
+    "id": "6e952493-9706-47a3-95ab-5e322c9776ae",
+    "key": "editorial-oven",
+    "name": "Tilo Oven Stories",
+    "username": "tilo_oven",
+    "bio": "Good things from a warm oven.",
+    "avatarURL": "https://hdapofqufmxlghmcrftg.supabase.co/storage/v1/object/public/toli-catalog/chef-04.jpg",
+    "baseline": {
+      "likes": 20,
+      "saves": 22,
+      "following": 19,
+      "followers": 20
+    },
+    "recipes": [
+      "recipe-12"
+    ],
+    "videos": [
+      "cooking-05"
+    ]
+  },
+  {
+    "id": "f5285eb6-e499-4497-b104-659f4d02ce81",
+    "key": "editorial-green",
+    "name": "Tilo Green Kitchen",
+    "username": "tilo_green",
+    "bio": "Fresh vegetables, herbs and colorful plates.",
+    "avatarURL": "https://hdapofqufmxlghmcrftg.supabase.co/storage/v1/object/public/toli-catalog/chef-05.jpg",
+    "baseline": {
+      "likes": 17,
+      "saves": 25,
+      "following": 14,
+      "followers": 22
+    },
+    "recipes": [
+      "recipe-05",
+      "recipe-07",
+      "recipe-08"
+    ],
+    "videos": [
+      "cooking-03",
+      "cooking-06"
+    ]
+  }
+]

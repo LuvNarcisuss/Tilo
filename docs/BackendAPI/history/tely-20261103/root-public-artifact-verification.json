@@ -1,0 +1,20 @@
+[
+  {
+    "file": "terms.pdf",
+    "anonymousGET": "passed",
+    "sha256": "matched",
+    "bytes": 35461
+  },
+  {
+    "file": "privacy.pdf",
+    "anonymousGET": "passed",
+    "sha256": "matched",
+    "bytes": 35837
+  },
+  {
+    "file": "cooking-01.mp4",
+    "anonymousGET": "passed",
+    "sha256": "matched",
+    "bytes": 1110966
+  }
+]

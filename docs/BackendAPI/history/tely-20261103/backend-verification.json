@@ -1,0 +1,334 @@
+{
+  "timestamp": "2026-11-03T08:35:33.236Z",
+  "projectRef": "lyotjdrnsdoernrcwwfd",
+  "method": "Three disposable real Auth identities; official supabase-js 2.80.0; actual Postgres Changes WebSocket subscriptions",
+  "checks": [
+    {
+      "name": "Authenticated bootstrap returns empty A configuration",
+      "status": "passed"
+    },
+    {
+      "name": "Authenticated bootstrap returns empty A configuration",
+      "status": "passed"
+    },
+    {
+      "name": "Authenticated bootstrap returns empty A configuration",
+      "status": "passed"
+    },
+    {
+      "name": "New ordinary user reads all 12 recipes and 6 videos",
+      "status": "passed"
+    },
+    {
+      "name": "Profile update persists and reads back",
+      "status": "passed"
+    },
+    {
+      "name": "Direct message rejected before mutual following",
+      "status": "passed"
+    },
+    {
+      "name": "Mutual relationship derives from two real follows",
+      "status": "passed"
+    },
+    {
+      "name": "Direct conversation uses real peer profile",
+      "status": "passed"
+    },
+    {
+      "name": "Nonmember cannot read private message history",
+      "status": "passed"
+    },
+    {
+      "name": "Nonmember cannot send into conversation",
+      "status": "passed"
+    },
+    {
+      "name": "Two members and nonmember register real Postgres Changes subscriptions",
+      "status": "passed"
+    },
+    {
+      "name": "Same client message ID returns one persisted message",
+      "status": "passed"
+    },
+    {
+      "name": "Idempotency rejects a conflicting retry payload",
+      "status": "passed"
+    },
+    {
+      "name": "Member B receives member A message through real WebSocket event",
+      "status": "passed"
+    },
+    {
+      "name": "Member A receives member B reply through real WebSocket event",
+      "status": "passed"
+    },
+    {
+      "name": "Realtime message is also readable through authorized persisted history",
+      "status": "passed"
+    },
+    {
+      "name": "Unread count derives from server reading progress",
+      "status": "passed"
+    },
+    {
+      "name": "Mark read persists current user reading progress",
+      "status": "passed"
+    },
+    {
+      "name": "Pin, mute and draft persist per membership",
+      "status": "passed"
+    },
+    {
+      "name": "Reconnect reconciliation retrieves an event missed while disconnected",
+      "status": "passed"
+    },
+    {
+      "name": "Recipe bookmarks persist with cross-user isolation",
+      "status": "passed"
+    },
+    {
+      "name": "Video like persists",
+      "status": "passed"
+    },
+    {
+      "name": "A real video comment is readable by another allowed account",
+      "status": "passed"
+    },
+    {
+      "name": "Meal plans persist with account isolation",
+      "status": "passed"
+    },
+    {
+      "name": "Atomic grocery batch aggregates normalized ingredient names",
+      "status": "passed"
+    },
+    {
+      "name": "Invalid grocery batch rolls back all rows",
+      "status": "passed"
+    },
+    {
+      "name": "Block persists",
+      "status": "passed"
+    },
+    {
+      "name": "Blocked conversation participant loses server history access",
+      "status": "passed"
+    },
+    {
+      "name": "Direct Data API RLS hides private messages from nonmember",
+      "status": "passed"
+    },
+    {
+      "name": "Direct REST membership query cannot reveal another member unsent draft",
+      "status": "passed"
+    },
+    {
+      "name": "Existing direct send rejects revoked mutual following",
+      "status": "passed"
+    },
+    {
+      "name": "Malformed recipe payload rejected before catalog insertion",
+      "status": "passed"
+    },
+    {
+      "name": "Valid user recipe publishes after actual owned photo upload",
+      "status": "passed"
+    },
+    {
+      "name": "Recipe publish rejects another account photo",
+      "status": "passed"
+    },
+    {
+      "name": "Recipe publish rejects arbitrary external image URL",
+      "status": "passed"
+    },
+    {
+      "name": "Owned recipe edit persists and reads back",
+      "status": "passed"
+    },
+    {
+      "name": "Works collection derives from authenticated author ownership",
+      "status": "passed"
+    },
+    {
+      "name": "Private chat image persists only after uploaded owned object exists",
+      "status": "passed"
+    },
+    {
+      "name": "Authorized peer can sign private attachment URL",
+      "status": "passed"
+    },
+    {
+      "name": "Nonmember cannot sign private attachment URL",
+      "status": "passed"
+    },
+    {
+      "name": "Forged chat image owner rejected",
+      "status": "passed"
+    },
+    {
+      "name": "Nonexistent chat image object rejected",
+      "status": "passed"
+    },
+    {
+      "name": "Group creation requires two other cooks",
+      "status": "passed"
+    },
+    {
+      "name": "Group creation excludes duplicate self and persists three real members",
+      "status": "passed"
+    },
+    {
+      "name": "Nonowner cannot change group membership",
+      "status": "passed"
+    },
+    {
+      "name": "Removed group member cannot retrieve history",
+      "status": "passed"
+    },
+    {
+      "name": "Owner can add a mutual follower back to group",
+      "status": "passed"
+    },
+    {
+      "name": "Leaving group removes future history access",
+      "status": "passed"
+    },
+    {
+      "name": "Blocked author visibility enforced for toggleBookmark",
+      "status": "passed"
+    },
+    {
+      "name": "Blocked author visibility enforced for toggleLike",
+      "status": "passed"
+    },
+    {
+      "name": "Blocked author visibility enforced for addComment",
+      "status": "passed"
+    },
+    {
+      "name": "Blocked author visibility enforced for comments",
+      "status": "passed"
+    },
+    {
+      "name": "Blocked author visibility enforced for saveMeal",
+      "status": "passed"
+    },
+    {
+      "name": "Blocked author absent from catalog, saved, liked and meal plan responses",
+      "status": "passed"
+    },
+    {
+      "name": "Blocked peer cannot renew private attachment signed URL",
+      "status": "passed"
+    },
+    {
+      "name": "Profile and recipe reports persist through guarded actions",
+      "status": "passed"
+    },
+    {
+      "name": "Owned recipe deletion removes catalog record",
+      "status": "passed"
+    },
+    {
+      "name": "Grocery checkbox persists",
+      "status": "passed"
+    },
+    {
+      "name": "Grocery removal persists",
+      "status": "passed"
+    },
+    {
+      "name": "Meal plan removal persists",
+      "status": "passed"
+    },
+    {
+      "name": "Exact content-derived agreement version accepted",
+      "status": "passed"
+    },
+    {
+      "name": "Outdated date-only agreement version rejected",
+      "status": "passed"
+    },
+    {
+      "name": "Adult confirmation false rejected",
+      "status": "passed"
+    },
+    {
+      "name": "Delete-account rejects a request without a user session",
+      "status": "passed"
+    },
+    {
+      "name": "Account deletion removes isolated account 3",
+      "status": "passed"
+    },
+    {
+      "name": "Deleted account token cannot perform guarded business operations",
+      "status": "passed"
+    },
+    {
+      "name": "Account deletion removes isolated account 2",
+      "status": "passed"
+    },
+    {
+      "name": "Deleted account token cannot perform guarded business operations",
+      "status": "passed"
+    },
+    {
+      "name": "Account deletion removes isolated account 1",
+      "status": "passed"
+    },
+    {
+      "name": "Deleted account token cannot perform guarded business operations",
+      "status": "passed"
+    }
+  ],
+  "anonymousAuth": {
+    "status": "blocked",
+    "code": "anonymous_provider_disabled"
+  },
+  "iosBuild": "Not authorized; not performed",
+  "signedMediaLimitation": "Already-issued private signed URLs remain valid until their 300-second expiry. Blocked and removed users cannot obtain a new URL.",
+  "cleanup": {
+    "status": "Three disposable accounts deleted through the real delete-account endpoint; database and owned media cleanup verified separately"
+  },
+  "completedAt": "2026-11-03T08:39:33.138Z",
+  "functionalSuiteAgreementVersion": "2026-11-03-ecd0a3abea14",
+  "finalLegalRevision": {
+    "agreementVersion": "2026-11-03-24e387172fe8",
+    "reason": "Initial-delivery purchase and local transaction-ledger scope correction; removed unsupported installation identifier",
+    "checks": [
+      {
+        "name": "Authenticated Edge bootstrap creates isolated profile",
+        "status": "passed"
+      },
+      {
+        "name": "Final exact content-derived agreement version accepted",
+        "status": "passed"
+      },
+      {
+        "name": "Superseded agreement version rejected: 2026-11-03-ecd0a3abea14",
+        "status": "passed"
+      },
+      {
+        "name": "Superseded agreement version rejected: 2026-11-03",
+        "status": "passed"
+      },
+      {
+        "name": "Adult confirmation false rejected for final version",
+        "status": "passed"
+      },
+      {
+        "name": "Final consent version and adulthood read back under own RLS",
+        "status": "passed"
+      },
+      {
+        "name": "One isolated final-consent account deleted through real endpoint",
+        "status": "passed"
+      }
+    ],
+    "isolatedAccountsCreated": 1,
+    "isolatedAccountsDeleted": 1
+  }
+}

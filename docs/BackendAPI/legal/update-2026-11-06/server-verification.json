@@ -1,0 +1,31 @@
+{
+  "projectRef": "hdapofqufmxlghmcrftg",
+  "organizationID": "wuwstedwrsfrxkbxjuqa",
+  "verifiedAt": "2026-11-06T02:51:54.744885+00:00",
+  "method": "Authenticated Supabase dashboard SQL Editor; connector returned Unknown tool",
+  "previousVersion": "2026-11-03-24e387172fe8",
+  "currentVersion": "2026-11-06-99d6afcc3037",
+  "before": {
+    "functionMD5": "df285853067ee17ed9da868843f948fa",
+    "consentCount": 4,
+    "consentsMD5": "c0748ea52116a4538787b3412ce75318"
+  },
+  "after": {
+    "currentVersionPresent": true,
+    "oldVersionRemoved": true,
+    "onlyVersionChanged": true,
+    "consentCount": 4,
+    "consentsMD5": "c0748ea52116a4538787b3412ce75318"
+  },
+  "sql": "supabase/legal-name-update.sql",
+  "screenshot": "server-version-verification.png",
+  "scope": "Version literal only; no consent row writes, grants, RLS, Auth settings or Edge Function changes. Definition equality checked after normalizing the version literal.",
+  "notExecuted": [
+    "Native compilation",
+    "Native typechecking",
+    "App/Simulator launch",
+    "Native agreement UI tests",
+    "Live Auth/RPC consent submission",
+    "StoreKit tests"
+  ]
+}

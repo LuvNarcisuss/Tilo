@@ -1,0 +1,77 @@
+{
+  "stage": "A",
+  "app": "Toli",
+  "creationAttempt": {
+    "id": "toli-20261103-a",
+    "name": "Toli-20261103",
+    "organization": "nccttwrxfnmntlyavtpt",
+    "region": "ap-southeast-1",
+    "cost": {
+      "amount": 0,
+      "recurrence": "monthly"
+    },
+    "status": "created_active_healthy",
+    "createdAt": "2026-11-03T06:11:49.753463Z"
+  },
+  "projectRef": "lyotjdrnsdoernrcwwfd",
+  "projectURL": "https://lyotjdrnsdoernrcwwfd.supabase.co",
+  "verification": {
+    "backendAssertionsPassed": 70,
+    "backendEvidence": "backend-verification.json",
+    "iosBuild": "Not authorized; not performed",
+    "iosRuntime": "Not authorized; not performed",
+    "anonymousAuth": {
+      "status": 422,
+      "code": "anonymous_provider_disabled"
+    },
+    "media": {
+      "objects": 31,
+      "bytes": 12082772,
+      "method": "Anonymous public GET, SHA-256, MIME and byte length matched"
+    },
+    "cleanup": {
+      "authUsers": 0,
+      "profiles": 0,
+      "messages": 0,
+      "userMediaObjects": 0
+    },
+    "remainingEditorial": {
+      "recipes": 12,
+      "videos": 6,
+      "catalogObjects": 29,
+      "legalObjects": 2
+    }
+  },
+  "legal": {
+    "contact": "support@toli.com",
+    "contactStatus": "Proposed; activation not confirmed",
+    "version": "2026-11-03-ecd0a3abea14",
+    "manifest": "legal/manifest.json",
+    "publicVerified": true,
+    "changePolicy": "Frozen after A delivery; only explicit user request authorizes later changes"
+  },
+  "status": "Superseded by explicit user selection of 139 organization; old project preserved",
+  "functions": {
+    "bootstrap": {
+      "version": 1,
+      "authentication": "Own Auth user verification"
+    },
+    "delete-account": {
+      "version": 1,
+      "authentication": "Own Auth user verification"
+    },
+    "catalog-ingest": {
+      "version": 2,
+      "status": "Disabled; actual HTTP 410 verified"
+    }
+  },
+  "swiftSDK": {
+    "url": "https://github.com/supabase/supabase-swift",
+    "version": "2.55.6",
+    "product": "Supabase"
+  },
+  "latestMigration": "20261103083508_toli_conversation_query_scope",
+  "clientSource": "ToliApp/Toli/Backend",
+  "stageB": "Not started; no external authentication, external Socket, WebView routing, remote payment integration or AI",
+  "documentation": "docs/BackendAPI/integration.md"
+}

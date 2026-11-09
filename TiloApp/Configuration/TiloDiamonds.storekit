@@ -1,0 +1,151 @@
+{
+  "identifier": "TiloDiamonds",
+  "nonRenewingSubscriptions": [],
+  "products": [
+    {
+      "displayPrice": "0.99",
+      "familyShareable": false,
+      "internalID": "Tilo400",
+      "localizations": [
+        {
+          "description": "Add 400 diamonds to your Tilo wallet on this device.",
+          "displayName": "400 Diamonds",
+          "locale": "en_US"
+        }
+      ],
+      "productID": "zvoxmetxtpphulex",
+      "referenceName": "Tilo 400 Diamonds",
+      "type": "Consumable"
+    },
+    {
+      "displayPrice": "1.99",
+      "familyShareable": false,
+      "internalID": "Tilo800",
+      "localizations": [
+        {
+          "description": "Add 800 diamonds to your Tilo wallet on this device.",
+          "displayName": "800 Diamonds",
+          "locale": "en_US"
+        }
+      ],
+      "productID": "kkmbaosirntvbmst",
+      "referenceName": "Tilo 800 Diamonds",
+      "type": "Consumable"
+    },
+    {
+      "displayPrice": "4.99",
+      "familyShareable": false,
+      "internalID": "Tilo2450",
+      "localizations": [
+        {
+          "description": "Add 2,450 diamonds to your Tilo wallet on this device.",
+          "displayName": "2,450 Diamonds",
+          "locale": "en_US"
+        }
+      ],
+      "productID": "tvrtrputxdlcupaf",
+      "referenceName": "Tilo 2,450 Diamonds",
+      "type": "Consumable"
+    },
+    {
+      "displayPrice": "9.99",
+      "familyShareable": false,
+      "internalID": "Tilo5150",
+      "localizations": [
+        {
+          "description": "Add 5,150 diamonds to your Tilo wallet on this device.",
+          "displayName": "5,150 Diamonds",
+          "locale": "en_US"
+        }
+      ],
+      "productID": "wdmsigccwqigfbuv",
+      "referenceName": "Tilo 5,150 Diamonds",
+      "type": "Consumable"
+    },
+    {
+      "displayPrice": "19.99",
+      "familyShareable": false,
+      "internalID": "Tilo10800",
+      "localizations": [
+        {
+          "description": "Add 10,800 diamonds to your Tilo wallet on this device.",
+          "displayName": "10,800 Diamonds",
+          "locale": "en_US"
+        }
+      ],
+      "productID": "qyomdfvoxwmnwffd",
+      "referenceName": "Tilo 10,800 Diamonds",
+      "type": "Consumable"
+    },
+    {
+      "displayPrice": "29.99",
+      "familyShareable": false,
+      "internalID": "Tilo16800",
+      "localizations": [
+        {
+          "description": "Add 16,800 diamonds to your Tilo wallet on this device.",
+          "displayName": "16,800 Diamonds",
+          "locale": "en_US"
+        }
+      ],
+      "productID": "mptqzvnrkdalxwce",
+      "referenceName": "Tilo 16,800 Diamonds",
+      "type": "Consumable"
+    },
+    {
+      "displayPrice": "49.99",
+      "familyShareable": false,
+      "internalID": "Tilo29400",
+      "localizations": [
+        {
+          "description": "Add 29,400 diamonds to your Tilo wallet on this device.",
+          "displayName": "29,400 Diamonds",
+          "locale": "en_US"
+        }
+      ],
+      "productID": "zrailjkjqgtaanyw",
+      "referenceName": "Tilo 29,400 Diamonds",
+      "type": "Consumable"
+    },
+    {
+      "displayPrice": "69.99",
+      "familyShareable": false,
+      "internalID": "Tilo42000",
+      "localizations": [
+        {
+          "description": "Add 42,000 diamonds to your Tilo wallet on this device.",
+          "displayName": "42,000 Diamonds",
+          "locale": "en_US"
+        }
+      ],
+      "productID": "hbxqfnrjvkwtcmza",
+      "referenceName": "Tilo 42,000 Diamonds",
+      "type": "Consumable"
+    },
+    {
+      "displayPrice": "99.99",
+      "familyShareable": false,
+      "internalID": "Tilo63700",
+      "localizations": [
+        {
+          "description": "Add 63,700 diamonds to your Tilo wallet on this device.",
+          "displayName": "63,700 Diamonds",
+          "locale": "en_US"
+        }
+      ],
+      "productID": "bujuisktutcsnouo",
+      "referenceName": "Tilo 63,700 Diamonds",
+      "type": "Consumable"
+    }
+  ],
+  "settings": {
+    "_failTransactionsEnabled": false,
+    "_locale": "en_US",
+    "_storefront": "USA"
+  },
+  "subscriptionGroups": [],
+  "version": {
+    "major": 3,
+    "minor": 0
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "version": "2026-11-03-24e387172fe8",
+  "status": "139 public bytes verified: final initial-delivery purchase-scope PDFs, correct MIME and SHA-256; both PDFs parsed and rendered as one page",
+  "contact": "support@toli.com",
+  "contactStatus": "Proposed; activation not confirmed",
+  "files": [
+    {
+      "file": "terms.pdf",
+      "sha256": "61bcb384b9164bf2b8b0cec03df8318b6a548f8962037ddc3ce2b30701793ebf",
+      "sourceSHA256": "5b92102c03f8bb413be3437044c1f1a0602a7c3362b925ff551063a673e9453f",
+      "publicURL": "https://hdapofqufmxlghmcrftg.supabase.co/storage/v1/object/public/legal/2026-11-03/terms.pdf",
+      "bucket": "legal",
+      "objectKey": "2026-11-03/terms.pdf",
+      "publicVerified": true
+    },
+    {
+      "file": "privacy.pdf",
+      "sha256": "907eb0e3e934753517d5fbd42287ea824a39788f333de86df2e8180a4e7b6f33",
+      "sourceSHA256": "cdd93c2946c01f2f879b463ffef125e59d2944602d1622b1d1ab31256e64c404",
+      "publicURL": "https://hdapofqufmxlghmcrftg.supabase.co/storage/v1/object/public/legal/2026-11-03/privacy.pdf",
+      "bucket": "legal",
+      "objectKey": "2026-11-03/privacy.pdf",
+      "publicVerified": true
+    }
+  ],
+  "changePolicy": "Frozen after initial user delivery; only an explicit user request authorizes later content, source, object or URL changes.",
+  "previousInitialDraftVersion": "2026-11-03-ecd0a3abea14",
+  "deploymentProjectRef": "hdapofqufmxlghmcrftg"
+}
