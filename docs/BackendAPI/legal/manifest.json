@@ -1,44 +1,41 @@
 {
-  "version": "2026-11-06-99d6afcc3037",
-  "status": "139 public bytes verified after owner-authorized Tilo name correction: unchanged URLs, correct MIME and SHA-256; both single-page PDFs parsed and visually inspected; server/client consent version synchronized",
-  "contact": "support@toli.com",
-  "contactStatus": "Proposed; activation not confirmed",
+  "version": "2026-11-09-64fc9fdd9c7a",
+  "status": "English PDFs rendered and inspected. Storage publication and server consent update pending.",
+  "contact": "ghordiucarpjiel@icloud.com",
+  "contactStatus": "Owner-supplied contact address",
+  "operator": "Chengdu Yuehui Xingyu Technology Co., Ltd.",
   "files": [
     {
       "file": "terms.pdf",
-      "sha256": "fcc24f042faf9ec1bfcec87aa48a3f847ce83aa39fadffc852d6d30c84c1f5fa",
-      "sourceSHA256": "9093be5f33cd78fe8c70f770c897d1006932c8422fbccc877f3501677ccc5f8b",
+      "sha256": "cc483d40af8344fd4c7c7dd2ec1146e32cbbf2acd3cfbaa23970ea9528aa28e0",
+      "sourceSHA256": "a2da8083a3c2309528add50d3eda3e947db1a640d15c66d46e7e9849c115cc14",
       "publicURL": "https://hdapofqufmxlghmcrftg.supabase.co/storage/v1/object/public/legal/2026-11-03/terms.pdf",
       "bucket": "legal",
       "objectKey": "2026-11-03/terms.pdf",
-      "publicVerified": true,
-      "bytes": 35823,
-      "pages": 1,
-      "versionSnapshotObjectKey": "2026-11-03/terms-2026-11-06-99d6afcc3037.pdf"
+      "publicVerified": false,
+      "bytes": 35829,
+      "pages": 1
     },
     {
       "file": "privacy.pdf",
-      "sha256": "e0cf2f940758b146c24270931c4d3f729cd0c7e6653046e8c59ec5b27099e5b2",
-      "sourceSHA256": "dd2c48be88ba09d07569da7d6cd963e2e913125db44319e94670e5b67397f9ec",
+      "sha256": "0ad44af52463dda323500fb1913cc18147bee352029f657a4c4a20e502c072b5",
+      "sourceSHA256": "4f45fa8b93c361f4f5d46f420ad6edff00f61a20ac7e85834966c63dab9435f3",
       "publicURL": "https://hdapofqufmxlghmcrftg.supabase.co/storage/v1/object/public/legal/2026-11-03/privacy.pdf",
       "bucket": "legal",
       "objectKey": "2026-11-03/privacy.pdf",
-      "publicVerified": true,
-      "bytes": 36053,
-      "pages": 1,
-      "versionSnapshotObjectKey": "2026-11-03/privacy-2026-11-06-99d6afcc3037.pdf"
+      "publicVerified": false,
+      "bytes": 36102,
+      "pages": 1
     }
   ],
   "changePolicy": "Frozen after initial user delivery; only an explicit user request authorizes later content, source, object or URL changes.",
-  "previousInitialDraftVersion": "2026-11-03-ecd0a3abea14",
   "deploymentProjectRef": "hdapofqufmxlghmcrftg",
-  "effectiveDate": "2026-11-06",
-  "previousVersion": "2026-11-03-24e387172fe8",
-  "versionDerivation": "2026-11-06- plus the first 12 lowercase SHA-256 hex characters of terms.md bytes + two LF bytes + privacy.md bytes",
-  "updatedAt": "2026-11-06T02:51:54.741278+00:00",
-  "changeSummary": "Owner-authorized app-name correction from Toli to Tilo and effective-date update; other terms and planned contact unchanged",
+  "effectiveDate": "2026-11-09",
+  "previousVersion": "2026-11-06-99d6afcc3037",
+  "versionDerivation": "Effective date plus the first 12 lowercase SHA-256 hex characters of terms.md bytes + two LF bytes + privacy.md bytes",
+  "changeSummary": "Owner-authorized contact and operator update in both English agreements",
   "linksPreserved": true,
-  "previousVersionArchive": "history/2026-11-03-24e387172fe8",
-  "serverVersionVerified": true,
-  "serverVerification": "update-2026-11-06/server-verification.json"
+  "previousVersionArchive": "history/2026-11-06-99d6afcc3037",
+  "deploymentScript": "supabase/legal-contact-update.sql",
+  "serverVersionVerified": false
 }

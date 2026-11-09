@@ -1,5 +1,5 @@
 # Tilo Terms of Use
-Effective November 6, 2026
+Effective November 9, 2026
 
 ## Cooking together
 Tilo helps adults discover recipes, watch cooking videos, organize meals and groceries, and exchange messages with other cooks. You must be at least 18 years old to use Tilo. By continuing, you accept these Terms and the Privacy Policy.
@@ -22,4 +22,4 @@ If Tilo offers digital consumables, purchases use Apple In-App Purchase. Review 
 Features require an internet connection and may change or be interrupted. You can edit your profile, manage your content and relationships, and request account deletion in Settings. We may restrict access to address misuse or legal requirements. Nothing in these Terms removes rights that cannot lawfully be excluded.
 
 ## Contact and updates
-Contact: support@toli.com. This address is planned and its activation has not yet been confirmed. Until it is active, use the available in-app controls to manage your account. We may update these Terms and will identify the current effective date in the app.
+Tilo is operated by Chengdu Yuehui Xingyu Technology Co., Ltd. For support or questions about these Terms, contact ghordiucarpjiel@icloud.com. We may update these Terms and will identify the current effective date in the app.

@@ -127,11 +127,12 @@ previous_legal=json.loads((ROOT/'docs/BackendAPI/legal'/legal['previousVersionAr
 check([item['publicURL'] for item in legal['files']]==[item['publicURL'] for item in previous_legal['files']],'Legal public URLs must remain unchanged')
 legal_digest=hashlib.sha256((ROOT/'docs/BackendAPI/legal/terms.md').read_bytes()+b'\n\n'+(ROOT/'docs/BackendAPI/legal/privacy.md').read_bytes()).hexdigest()[:12]
 check(legal['version']==legal['effectiveDate']+'-'+legal_digest,'Legal version must derive from current sources')
-check(legal['version'] in (ROOT/'supabase/legal-name-update.sql').read_text(),'Deployment script must match current legal version')
+check(legal['version'] in (ROOT/legal['deploymentScript']).read_text(),'Deployment script must match current legal version')
 check('cachePolicy: .reloadIgnoringLocalCacheData' in (APP/'Features/Social/SettingsController.swift').read_text(),'Legal viewer must refresh unchanged URLs')
 backend_config=(APP/'Backend/TiloBackendConfiguration.swift').read_text()
 check(ORIGIN.rstrip('/') in backend_config,'Backend configuration must match the selected project')
-check(('agreementVersion = "'+legal['version']+'"') in backend_config,'Consent version must match exact legal content')
+published_version = legal['version'] if legal['serverVersionVerified'] else previous_legal['version']
+check(('agreementVersion = "'+published_version+'"') in backend_config,'Consent version must match the published legal version')
 result={'scope':'Static files/resources/metadata only; no compilation, typechecking or runtime tests','checks':checks,'failures':errors}
 (ROOT/'docs/static-verification.json').write_text(json.dumps(result,indent=2)+'\n')
 print(json.dumps(result,indent=2))

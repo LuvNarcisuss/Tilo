@@ -23,11 +23,12 @@ styles['Heading2'].textColor = colors.HexColor('#1F352D')
 def footer(canvas, doc):
     canvas.setFont('TiloText' if font.exists() else 'Helvetica', 8)
     canvas.setFillColor(colors.HexColor('#777777'))
-    canvas.drawString(42, 25, 'Tilo | Effective November 6, 2026')
+    canvas.drawString(42, 25, f'Tilo | {doc.effective_date}')
     canvas.drawRightString(553, 25, str(doc.page))
 for kind in ('terms', 'privacy'):
     flow = []
-    for para in (BASE / f'{kind}.md').read_text().split('\n\n'):
+    source = (BASE / f'{kind}.md').read_text()
+    for para in source.split('\n\n'):
         if para.startswith('# '):
             title, _, date = para.partition('\n')
             flow += [Paragraph(escape(title[2:]), styles['Title']), Paragraph(escape(date), styles['BodyText']), Spacer(1, 10)]
@@ -36,4 +37,6 @@ for kind in ('terms', 'privacy'):
             flow += [Paragraph(escape(title[3:]), styles['Heading2'])]
             if body: flow += [Paragraph(escape(body), styles['BodyText'])]
         else: flow += [Paragraph(escape(para.replace('\n',' ')), styles['BodyText']), Spacer(1, 5)]
-    SimpleDocTemplate(str(BASE / f'{kind}.pdf'), pagesize=(595,842), leftMargin=42,rightMargin=42,topMargin=40,bottomMargin=45,title=f'Tilo {"Terms of Use" if kind=="terms" else "Privacy Policy"}',author='Tilo').build(flow,onFirstPage=footer,onLaterPages=footer)
+    document = SimpleDocTemplate(str(BASE / f'{kind}.pdf'), pagesize=(595,842), leftMargin=42,rightMargin=42,topMargin=40,bottomMargin=45,title=f'Tilo {"Terms of Use" if kind=="terms" else "Privacy Policy"}',author='Tilo')
+    document.effective_date = source.splitlines()[1]
+    document.build(flow,onFirstPage=footer,onLaterPages=footer)

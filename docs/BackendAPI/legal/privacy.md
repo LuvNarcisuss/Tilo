@@ -1,5 +1,5 @@
 # Tilo Privacy Policy
-Effective November 6, 2026
+Effective November 9, 2026
 
 ## Scope
 This policy explains how Tilo handles information when you use its cooking, planning and social features. Tilo is intended for adults aged 18 and over.
@@ -24,4 +24,4 @@ Edit profile information in Me, remove your own published recipes, manage saves 
 Use Delete Account in Settings to remove your account and the account-owned information linked to it. Information may remain where required for legal obligations or in provider backups until the relevant backup cycle completes. We do not promise a fixed retention period that has not been established. A device-only anonymous account may be unrecoverable after logout, reinstalling or losing the device.
 
 ## Contact and changes
-Contact: support@toli.com. This address is planned and its activation has not yet been confirmed. In-app controls remain available for account management. Updates to this policy show a new effective date in the app.
+Tilo is operated by Chengdu Yuehui Xingyu Technology Co., Ltd. For privacy questions or requests, contact ghordiucarpjiel@icloud.com. In-app controls remain available for account management. Updates to this policy show a new effective date in the app.
